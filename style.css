@@ -1,0 +1,23 @@
+
+img{
+    height: 300px;
+    width: 550px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 34px;
+    cursor:  pointer;
+}
+img:hover{
+    box-shadow: 5px 12px 23px 0px black;
+}
+h3{
+    color: lime;
+    text-shadow: 3px 4px 4px black;
+}
+
+@media (max-width : 500px) {
+    img{
+        height: 200px;
+        width: 330px;
+    }
+}
